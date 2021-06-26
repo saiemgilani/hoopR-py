@@ -2,6 +2,7 @@
 <!-- badges: start -->
 
 ![Lifecycle:experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg?style=for-the-badge&logo=github)
+[![PyPI](https://img.shields.io/pypi/v/hoopR-py?label=hoopr-py&logo=python&style=for-the-badge)](https://pypi.org/project/hoopR-py/)
 ![Contributors](https://img.shields.io/github/contributors/saiemgilani/hoopR-py?style=for-the-badge)
 [![Twitter
 Follow](https://img.shields.io/twitter/follow/saiemgilani?color=blue&label=%40saiemgilani&logo=twitter&style=for-the-badge)](https://twitter.com/saiemgilani)
