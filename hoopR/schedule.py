@@ -1,6 +1,6 @@
 import pandas as pd
 import json
-from dl_utils import download
+from hoopR.dl_utils import download
 
 def mbb_calendar(season: int) -> pd.DataFrame:
     url = "http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates={}".format(season)
