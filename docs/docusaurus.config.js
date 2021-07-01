@@ -20,6 +20,7 @@ module.exports = {
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
+    image: 'img/hoopR-py-gh.png',
     navbar: {
       hideOnScroll: true,
       // title: 'hoopR-py',
