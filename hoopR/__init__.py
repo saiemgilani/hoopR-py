@@ -1,3 +1,2 @@
-from .mbb import *
-from .nba import *
-from .schedule import *
+from hoopR.mbb import *
+from hoopR.nba import *
