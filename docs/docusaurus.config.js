@@ -53,7 +53,7 @@ module.exports = {
             },
             {
               label: 'cfbfastR-py',
-              href: 'https://cfbfastR.sportsdataverse.org/',
+              href: 'https://cfbfastR-py.sportsdataverse.org/',
             },
             {
               label: 'wehoop-py',
