@@ -1,4 +1,4 @@
-## 0.0.6 Release: July 1, 2021
+## 0.0.7 Release: July 1, 2021
 - Updated documentation for all functions
 - Created documentation website at [https://hoopR-py.sportsdataverse.org/](https://hoopR-py.sportsdataverse.org/)
 ## 0.0.1 Release: June 26, 2021

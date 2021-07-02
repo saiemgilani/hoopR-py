@@ -8,15 +8,24 @@
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2C3E50;
-  --ifm-color-primary-dark: #283847;
-  --ifm-color-primary-darker: #1f2c38;
-  --ifm-color-primary-darkest: #19222a;
-  --ifm-color-primary-light: #2C3E50;
-  --ifm-color-primary-lighter: #364b61;
-  --ifm-color-primary-lightest: #405b75;
+  --ifm-color-primary-dark: hsl(210, 63%, 54%);
+  --ifm-color-primary-darker: hsl(210, 29%, 60%);
+  --ifm-color-primary-darkest: hsl(210, 37%, 48%);
+  --ifm-color-primary-light: hsl(210, 50%, 40%);
+  --ifm-color-primary-lighter: hsl(210, 29%, 40%);
+  --ifm-color-primary-lightest: hsl(210, 29%, 55%);
   --ifm-code-font-size: 95%;
+  --ifm-link-color: var(--ifm-color-primary-dark);
+  --ifm-menu-color-active: var(--ifm-link-color);
+  --ifm-navbar-link-hover-color: var(--ifm-link-color);
+}
+html[data-theme='dark'] .dropdown__menu {
+  background-color: hsl(210, 47%, 38%);
 }
 
+html[data-theme='dark'] code {
+  background-color: hsla(211, 45%, 25%, 0.685);
+}
 .docusaurus-highlight-code-line {
   background-color: #5983ad;
   display: block;
@@ -40,13 +49,10 @@ html[data-theme='light'] footer {
 }
 html[data-theme='dark'] {
   background-color: #2C3E50;
-  --ifm-color-primary: #2b5a8a;
+  --ifm-color-primary: hsl(210, 59%, 60%);
   --ifm-link-color: #96c7f8;
 }
-html[data-theme='light'] {
-  --ifm-color-primary: #3070af;
-  --ifm-link-color: #6a96c2;
-}
+
 html[data-theme='dark'] .navbar-sidebar {
   background-color: #2C3E50;
   --ifm-color-primary: #3b76b1;
