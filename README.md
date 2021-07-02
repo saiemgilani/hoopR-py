@@ -12,7 +12,7 @@ Follow](https://img.shields.io/twitter/follow/saiemgilani?color=blue&label=%40sa
 
 See [CHANGELOG.md](http://hoopr-py.sportsdataverse.org/CHANGELOG) for details.
 
-[hoopR-py](https://hoopr-py.sportsdataverse.org/) is an Python package for working with men’s basketball data and companion package to [hoopR](https://github.com/saiemgilani/hoopR)
+[hoopR-py](https://hoopr-py.sportsdataverse.org/) is an Python package for working with men’s basketball data and companion package to [hoopR](https://saiemgilani.github.io/hoopR/)
 
 The package has functions to access live play by play and box score data from ESPN with shot locations when available.
 
