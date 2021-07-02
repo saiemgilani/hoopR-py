@@ -4,7 +4,7 @@ sidebar_label: Getting Started
 sidebar_position: 1
 ---
 
-# hoopR-py
+## hoopR-py
 <!-- badges: start -->
 
 ![Lifecycle:experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg?style=for-the-badge&logo=github)
@@ -14,15 +14,15 @@ sidebar_position: 1
 Follow](https://img.shields.io/twitter/follow/saiemgilani?color=blue&label=%40saiemgilani&logo=twitter&style=for-the-badge)](https://twitter.com/saiemgilani)
 
 <!-- badges: end -->
-<a href='http://github.com/saiemgilani/hoopR-py'><img src='../static/img/hoopR-py-logo.png' align="right" height="150" /></a>
+<a href='https://hoopR-py.sportsdataverse.org/'><img src='https://hoopR-py.sportsdataverse.org/img/hoopR-py-logo.png' align="right" height="150" /></a>
 
 See [CHANGELOG](/CHANGELOG) for details.
 
-[hoopR-py](https://github.com/saiemgilani/hoopR-py) is an Python package for working with men’s basketball data and companion package to [hoopR](https://github.com/saiemgilani/hoopR)
+[hoopR-py](https://hoopR-py.sportsdataverse.org/) is an Python package for working with men’s basketball data and companion package to [hoopR](https://saiemgilani.github.io/hoopR/)
 
 The package has functions to access live play by play and box score data from ESPN with shot locations when available.
 
-## Installation
+### Installation
 
 hoopR-py can be installed via pip:
 
@@ -39,23 +39,24 @@ pip install -e .
 ```
 
 
-# **Our Authors**
+### **Our Authors**
 
--   [Saiem Gilani](https://twitter.com/saiemgilani)       
+-   [Saiem Gilani](https://twitter.com/saiemgilani)
 <a href="https://twitter.com/saiemgilani" target="blank"><img src="https://img.shields.io/twitter/follow/saiemgilani?color=blue&label=%40saiemgilani&logo=twitter&style=for-the-badge" alt="@saiemgilani" /></a>
 <a href="https://github.com/saiemgilani" target="blank"><img src="https://img.shields.io/github/followers/saiemgilani?color=eee&logo=Github&style=for-the-badge" alt="@saiemgilani" /></a>
 
 
-## **Citations**
+### **Citations**
 
 To cite the [**`hoopR-py`**](https://hoopR-py.sportsdataverse.org/) Python package in publications, use:
 
 BibTex Citation
+
 ```bibtex
 @misc{saiemgilani2021hoopRpy,
   author = {Gilani, Saiem},
   title = {hoopR-py: The SportsDataverse's Python Package for Men's Basketball Data.},
-  url = {https://saiemgilani.github.io/hoopR-py/},
+  url = {https://hoopR-py.sportsdataverse.org/},
   year = {2021}
 }
 ```
