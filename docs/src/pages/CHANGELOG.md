@@ -1,3 +1,6 @@
+## 0.0.8 Release: July 4, 2021
+- Remove nullable dtype argument from `pyarrow` calls
+
 ## 0.0.7 Release: July 1, 2021
 - Updated documentation for all functions
 - Created documentation website at [https://hoopR-py.sportsdataverse.org/](https://hoopR-py.sportsdataverse.org/)

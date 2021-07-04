@@ -26,8 +26,7 @@ def load_mbb_pbp(seasons: List[int]) -> pd.DataFrame:
     for i in seasons:
         if int(i) < 2002:
             raise SeasonNotFoundError("season cannot be less than 2002")
-        i_data = pd.read_parquet(MBB_BASE_URL.format(season=i), engine='auto', columns=None, 
-        use_nullable_dtypes=False)
+        i_data = pd.read_parquet(MBB_BASE_URL.format(season=i), engine='auto', columns=None)
         data = data.append(i_data)
     #Give each row a unique index
     data.reset_index(drop=True, inplace=True)
@@ -53,8 +52,7 @@ def load_mbb_team_boxscore(seasons: List[int]) -> pd.DataFrame:
     for i in seasons:
         if int(i) < 2002:
             raise SeasonNotFoundError("season cannot be less than 2002")
-        i_data = pd.read_parquet(MBB_TEAM_BOX_URL.format(season = i), engine='auto', columns=None, 
-        use_nullable_dtypes=False)
+        i_data = pd.read_parquet(MBB_TEAM_BOX_URL.format(season = i), engine='auto', columns=None)
         data = data.append(i_data)
     #Give each row a unique index
     data.reset_index(drop=True, inplace=True)
@@ -81,8 +79,7 @@ def load_mbb_player_boxscore(seasons: List[int]) -> pd.DataFrame:
     for i in seasons:
         if int(i) < 2002:
             raise SeasonNotFoundError("season cannot be less than 2002")
-        i_data = pd.read_parquet(MBB_PLAYER_BOX_URL.format(season = i), engine='auto', columns=None, 
-        use_nullable_dtypes=False)
+        i_data = pd.read_parquet(MBB_PLAYER_BOX_URL.format(season = i), engine='auto', columns=None)
         data = data.append(i_data)
     #Give each row a unique index
     data.reset_index(drop=True, inplace=True)
@@ -109,8 +106,7 @@ def load_mbb_schedule(seasons: List[int]) -> pd.DataFrame:
     for i in seasons:
         if int(i) < 2002:
             raise SeasonNotFoundError("season cannot be less than 2002")
-        i_data = pd.read_parquet(MBB_TEAM_SCHEDULE_URL.format(season = i), engine='auto', columns=None, 
-        use_nullable_dtypes=False)
+        i_data = pd.read_parquet(MBB_TEAM_SCHEDULE_URL.format(season = i), engine='auto', columns=None)
         data = data.append(i_data)
     #Give each row a unique index
     data.reset_index(drop=True, inplace=True)
