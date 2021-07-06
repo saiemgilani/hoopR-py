@@ -139,7 +139,7 @@ def nba_calendar(season: int) -> pd.DataFrame:
         raise SeasonNotFoundError("season cannot be less than 2002")
 
     url = "http://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates={}".format(season)
-    resp = self.download(url=url)
+    resp = download(url=url)
     txt = json.loads(resp)['leagues'][0]['calendar']
     datenum = list(map(lambda x: x[:10].replace("-",""),txt))
     date = list(map(lambda x: x[:10],txt))
