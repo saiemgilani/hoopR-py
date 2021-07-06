@@ -8,7 +8,7 @@ Load NBA player boxscore data
 
 Example:
 
-    nba_df = hoopR.nba.load_nba_player_boxscore(seasons=[range(2002,2022)])
+    nba_df = hoopR.nba.load_nba_player_boxscore(seasons=range(2002,2022))
 
 Args:
 

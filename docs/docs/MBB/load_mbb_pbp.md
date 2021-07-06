@@ -8,7 +8,7 @@ Load men’s college basketball play by play data going back to 2002
 
 Example:
 
-    mbb_df = hoopR.mbb.load_mbb_pbp(seasons=[range(2002,2022)])
+    mbb_df = hoopR.mbb.load_mbb_pbp(seasons=range(2002,2022))
 
 Args:
 

@@ -8,7 +8,7 @@ Load NBA schedule data
 
 Example:
 
-    nba_df = hoopR.nba.load_nba_schedule(seasons=[range(2002,2022)])
+    nba_df = hoopR.nba.load_nba_schedule(seasons=range(2002,2022))
 
 Args:
 

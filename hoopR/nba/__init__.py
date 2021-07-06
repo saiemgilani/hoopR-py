@@ -13,7 +13,7 @@ def load_nba_pbp(seasons: List[int]) -> pd.DataFrame:
     """Load NBA play by play data going back to 2002
 
     Example:
-        `nba_df = hoopR.nba.load_nba_pbp(seasons=[range(2002,2022)])`
+        `nba_df = hoopR.nba.load_nba_pbp(seasons=range(2002,2022))`
 
     Args:
         seasons (list): Used to define different seasons. 2002 is the earliest available season.
@@ -39,7 +39,7 @@ def load_nba_team_boxscore(seasons: List[int]) -> pd.DataFrame:
     """Load NBA team boxscore data
 
     Example:
-        `nba_df = hoopR.nba.load_nba_team_boxscore(seasons=[range(2002,2022)])`
+        `nba_df = hoopR.nba.load_nba_team_boxscore(seasons=range(2002,2022))`
 
     Args:
         seasons (list): Used to define different seasons. 2002 is the earliest available season.
@@ -66,7 +66,7 @@ def load_nba_player_boxscore(seasons: List[int]) -> pd.DataFrame:
     """Load NBA player boxscore data
 
     Example:
-        `nba_df = hoopR.nba.load_nba_player_boxscore(seasons=[range(2002,2022)])`
+        `nba_df = hoopR.nba.load_nba_player_boxscore(seasons=range(2002,2022))`
 
     Args:
         seasons (list): Used to define different seasons. 2002 is the earliest available season.
@@ -93,7 +93,7 @@ def load_nba_schedule(seasons: List[int]) -> pd.DataFrame:
     """Load NBA schedule data
 
     Example:
-        `nba_df = hoopR.nba.load_nba_schedule(seasons=[range(2002,2022)])`
+        `nba_df = hoopR.nba.load_nba_schedule(seasons=range(2002,2022))`
 
     Args:
         seasons (list): Used to define different seasons. 2002 is the earliest available season.

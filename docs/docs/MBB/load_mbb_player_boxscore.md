@@ -8,7 +8,7 @@ Load men’s college basketball player boxscore data
 
 Example:
 
-    mbb_df = hoopR.mbb.load_mbb_player_boxscore(seasons=[range(2002,2022)])
+    mbb_df = hoopR.mbb.load_mbb_player_boxscore(seasons=range(2002,2022))
 
 Args:
 

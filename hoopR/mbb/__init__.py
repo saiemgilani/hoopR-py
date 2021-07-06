@@ -10,7 +10,7 @@ def load_mbb_pbp(seasons: List[int]) -> pd.DataFrame:
     """Load men's college basketball play by play data going back to 2002
 
     Example:
-        `mbb_df = hoopR.mbb.load_mbb_pbp(seasons=[range(2002,2022)])`
+        `mbb_df = hoopR.mbb.load_mbb_pbp(seasons=range(2002,2022))`
 
     Args:
         seasons (list): Used to define different seasons. 2002 is the earliest available season.
@@ -36,7 +36,7 @@ def load_mbb_team_boxscore(seasons: List[int]) -> pd.DataFrame:
     """Load men's college basketball team boxscore data
 
     Example:
-        `mbb_df = hoopR.mbb.load_mbb_team_boxscore(seasons=[range(2002,2022)])`
+        `mbb_df = hoopR.mbb.load_mbb_team_boxscore(seasons=range(2002,2022))`
 
     Args:
         seasons (list): Used to define different seasons. 2002 is the earliest available season.
@@ -63,7 +63,7 @@ def load_mbb_player_boxscore(seasons: List[int]) -> pd.DataFrame:
     """Load men's college basketball player boxscore data
 
     Example:
-        `mbb_df = hoopR.mbb.load_mbb_player_boxscore(seasons=[range(2002,2022)])`
+        `mbb_df = hoopR.mbb.load_mbb_player_boxscore(seasons=range(2002,2022))`
 
     Args:
         seasons (list): Used to define different seasons. 2002 is the earliest available season.
@@ -90,7 +90,7 @@ def load_mbb_schedule(seasons: List[int]) -> pd.DataFrame:
     """Load men's college basketball schedule data
 
     Example:
-        `mbb_df = hoopR.mbb.load_mbb_schedule(seasons=[range(2002,2022)])`
+        `mbb_df = hoopR.mbb.load_mbb_schedule(seasons=range(2002,2022))`
 
     Args:
         seasons (list): Used to define different seasons. 2002 is the earliest available season.

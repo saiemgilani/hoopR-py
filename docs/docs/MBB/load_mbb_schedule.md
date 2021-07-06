@@ -8,7 +8,7 @@ Load men’s college basketball schedule data
 
 Example:
 
-    mbb_df = hoopR.mbb.load_mbb_schedule(seasons=[range(2002,2022)])
+    mbb_df = hoopR.mbb.load_mbb_schedule(seasons=range(2002,2022))
 
 Args:
 

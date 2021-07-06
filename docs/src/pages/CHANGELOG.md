@@ -1,3 +1,7 @@
+
+## 0.0.9 Release: July 6, 2021
+- Updated documentation for all functions
+
 ## 0.0.8 Release: July 4, 2021
 - Remove nullable dtype argument from `pyarrow` calls
 

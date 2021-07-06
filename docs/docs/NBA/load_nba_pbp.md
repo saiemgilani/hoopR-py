@@ -8,7 +8,7 @@ Load NBA play by play data going back to 2002
 
 Example:
 
-    nba_df = hoopR.nba.load_nba_pbp(seasons=[range(2002,2022)])
+    nba_df = hoopR.nba.load_nba_pbp(seasons=range(2002,2022))
 
 Args:
 
