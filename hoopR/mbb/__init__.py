@@ -23,6 +23,8 @@ def load_mbb_pbp(seasons: List[int]) -> pd.DataFrame:
         ValueError: If `season` is less than 2002.
     """
     data = pd.DataFrame()
+    if type(seasons) is int:
+        seasons = [seasons]
     for i in seasons:
         if int(i) < 2002:
             raise SeasonNotFoundError("season cannot be less than 2002")
@@ -49,6 +51,8 @@ def load_mbb_team_boxscore(seasons: List[int]) -> pd.DataFrame:
         ValueError: If `season` is less than 2002.
     """
     data = pd.DataFrame()
+    if type(seasons) is int:
+        seasons = [seasons]
     for i in seasons:
         if int(i) < 2002:
             raise SeasonNotFoundError("season cannot be less than 2002")
@@ -76,6 +80,8 @@ def load_mbb_player_boxscore(seasons: List[int]) -> pd.DataFrame:
         ValueError: If `season` is less than 2002.
     """
     data = pd.DataFrame()
+    if type(seasons) is int:
+        seasons = [seasons]
     for i in seasons:
         if int(i) < 2002:
             raise SeasonNotFoundError("season cannot be less than 2002")
@@ -103,6 +109,8 @@ def load_mbb_schedule(seasons: List[int]) -> pd.DataFrame:
         ValueError: If `season` is less than 2002.
     """
     data = pd.DataFrame()
+    if type(seasons) is int:
+        seasons = [seasons]
     for i in seasons:
         if int(i) < 2002:
             raise SeasonNotFoundError("season cannot be less than 2002")

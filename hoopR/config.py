@@ -1,5 +1,5 @@
 MBB_BASE_URL = 'https://raw.githubusercontent.com/saiemgilani/hoopR-data/master/mbb/pbp/parquet/play_by_play_{season}.parquet'
-MBB_TEAM_BOX_URL = 'https://raw.githubusercontent.com/saiemgilani/hoopR-data/master/mbb/team_box/parquet/player_box_{season}.parquet'
+MBB_TEAM_BOX_URL = 'https://raw.githubusercontent.com/saiemgilani/hoopR-data/master/mbb/team_box/parquet/team_box_{season}.parquet'
 MBB_PLAYER_BOX_URL = 'https://raw.githubusercontent.com/saiemgilani/hoopR-data/master/mbb/player_box/parquet/player_box_{season}.parquet'
 MBB_TEAM_LOGO_URL  = 'https://github.com/saiemgilani/hoopR-data/blob/master/mbb/teams_colors_logos.csv'
 MBB_TEAM_SCHEDULE_URL = 'https://raw.githubusercontent.com/saiemgilani/hoopR-data/master/mbb/schedules/parquet/schedules_{season}.parquet'

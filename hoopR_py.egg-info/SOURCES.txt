@@ -1,0 +1,13 @@
+README.md
+setup.py
+hoopR/__init__.py
+hoopR/config.py
+hoopR/dl_utils.py
+hoopR/errors.py
+hoopR/mbb/__init__.py
+hoopR/nba/__init__.py
+hoopR_py.egg-info/PKG-INFO
+hoopR_py.egg-info/SOURCES.txt
+hoopR_py.egg-info/dependency_links.txt
+hoopR_py.egg-info/requires.txt
+hoopR_py.egg-info/top_level.txt

@@ -1,5 +1,6 @@
 
-## 0.0.9 Release: July 6, 2021
+## 0.0.10 Release: July 6, 2021
+- Fix team boxscore link
 - Updated documentation for all functions
 
 ## 0.0.8 Release: July 4, 2021
