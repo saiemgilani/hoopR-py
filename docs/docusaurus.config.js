@@ -23,7 +23,7 @@ module.exports = {
     image: 'img/hoopR-py-gh.png',
     navbar: {
       hideOnScroll: true,
-      // title: 'hoopR-py',
+      title: 'hoopR-py',
       logo: {
         alt: 'hoopR Logo',
         src: 'img/logo.ico',
