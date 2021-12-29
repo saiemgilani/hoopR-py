@@ -1,4 +1,8 @@
-# hoopR-py <a href='https://hoopR-py.sportsdataverse.org/'><img src='https://hoopR-py.sportsdataverse.org/img/hoopR-py-logo.png' align="right" height="150" /></a>
+# hoopR-py is now archived 
+
+# **Please use [**`sportsdataverse-py`**](https://py.sportsdataverse.org) as a drop-in replacement**
+
+### hoopR-py <a href='https://py.sportsdataverse.org/'><img src='https://raw.githubusercontent.com/saiemgilani/hoopR-py/master/hoopR-py-logo.png' align="right" height="150" /></a>
 <!-- badges: start -->
 
 ![Lifecycle:experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg?style=for-the-badge&logo=github)
